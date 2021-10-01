@@ -15,6 +15,7 @@ namespace CriandoVariaveis
             int idade = 37;
 
             Console.WriteLine("a idade é "+ idade +", parabéns!");
+            Console.ReadLine();
         }
     }
 }

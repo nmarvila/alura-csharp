@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3-CriandoVariaveisPontoFlut
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CriandoVariaveis", "CriandoVariaveis\CriandoVariaveis.csproj", "{432A784F-AAFE-4DED-8468-22B6AF7C9759}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestaPontoFlutuante", "TestaPontoFlutuante\TestaPontoFlutuante.csproj", "{3AA19F50-B30C-46C7-BE99-269572F3B01F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{432A784F-AAFE-4DED-8468-22B6AF7C9759}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{432A784F-AAFE-4DED-8468-22B6AF7C9759}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{432A784F-AAFE-4DED-8468-22B6AF7C9759}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3AA19F50-B30C-46C7-BE99-269572F3B01F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AA19F50-B30C-46C7-BE99-269572F3B01F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AA19F50-B30C-46C7-BE99-269572F3B01F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AA19F50-B30C-46C7-BE99-269572F3B01F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
