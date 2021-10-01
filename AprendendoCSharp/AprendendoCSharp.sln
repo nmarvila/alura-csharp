@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8-Condicionais2", "8-Condic
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "9-Escopo", "9-Escopo\9-Escopo.csproj", "{AE9BF381-0748-48FC-85AC-A10534E18574}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aliquota", "Aliquota\Aliquota.csproj", "{F3768EC4-27F5-4880-9892-E6CDAF695D80}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +83,10 @@ Global
 		{AE9BF381-0748-48FC-85AC-A10534E18574}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AE9BF381-0748-48FC-85AC-A10534E18574}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AE9BF381-0748-48FC-85AC-A10534E18574}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3768EC4-27F5-4880-9892-E6CDAF695D80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3768EC4-27F5-4880-9892-E6CDAF695D80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3768EC4-27F5-4880-9892-E6CDAF695D80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3768EC4-27F5-4880-9892-E6CDAF695D80}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
