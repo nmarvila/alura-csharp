@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aliquota", "Aliquota\Aliquo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P10-CalculaPoupanca", "P10-CalculaPoupanca\P10-CalculaPoupanca.csproj", "{796AAE29-CC9D-4B8E-B434-21FBCB829D8B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P11-CalculaPoupanca2", "P11-CalculaPoupanca2\P11-CalculaPoupanca2.csproj", "{E70BF49F-0AF4-40B4-8E89-1BA259BA0FD4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +95,10 @@ Global
 		{796AAE29-CC9D-4B8E-B434-21FBCB829D8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{796AAE29-CC9D-4B8E-B434-21FBCB829D8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{796AAE29-CC9D-4B8E-B434-21FBCB829D8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E70BF49F-0AF4-40B4-8E89-1BA259BA0FD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E70BF49F-0AF4-40B4-8E89-1BA259BA0FD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E70BF49F-0AF4-40B4-8E89-1BA259BA0FD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E70BF49F-0AF4-40B4-8E89-1BA259BA0FD4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
