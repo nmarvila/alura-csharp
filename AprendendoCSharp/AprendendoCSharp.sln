@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1-PrimeiroProjeto", "1-Prim
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2-CriandoVariaveis", "2-CriandoVariaveis\2-CriandoVariaveis.csproj", "{A6ECDCEE-F15E-4BFD-BC1E-51604D7B72A7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3-CriandoVariaveisPontoFlutuante", "3-CriandoVariaveisPontoFlutuante\3-CriandoVariaveisPontoFlutuante.csproj", "{5D0EB9FD-D28E-4131-A797-0B824E48A8B3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{A6ECDCEE-F15E-4BFD-BC1E-51604D7B72A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A6ECDCEE-F15E-4BFD-BC1E-51604D7B72A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A6ECDCEE-F15E-4BFD-BC1E-51604D7B72A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D0EB9FD-D28E-4131-A797-0B824E48A8B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D0EB9FD-D28E-4131-A797-0B824E48A8B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D0EB9FD-D28E-4131-A797-0B824E48A8B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D0EB9FD-D28E-4131-A797-0B824E48A8B3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
