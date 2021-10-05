@@ -10,47 +10,49 @@ namespace ByteBank
     {
         static void Main(string[] args)
         {
-            // ContaCorrente conta = new ContaCorrente(7480, 874150);
-
-            // Console.WriteLine(ContaCorrente.TaxaOperacao);
-
             try
             {
                 Metodo();
             }
-            catch (DivideByZeroException excecao)
+            catch (DivideByZeroException e)
             {
-                Console.WriteLine(excecao.Message);
-                Console.WriteLine(excecao.StackTrace);
+                Console.WriteLine("Não é possível divisão por zero.");
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+                Console.WriteLine(e.StackTrace);
+                Console.WriteLine("Aconteceu um erro!");
             }
 
             Console.ReadLine();
         }
 
-        public static int Dividir(int numero, int divisor)
-        {
-            ContaCorrente conta = null;
-            Console.WriteLine(conta.Saldo);
-            return numero / divisor;
-        }
-
+        // Teste com a cadeia de chamada:
+        // Metodo -> TestaDivisao -> Dividir
         static void Metodo()
         {
-            try
-            {
-                TestaDivisao(0);
-            }
-            catch (NullReferenceException excecao)
-            {
-                Console.WriteLine(excecao.Message);
-                Console.WriteLine(excecao.StackTrace);
-
-            }
+            TestaDivisao(0);
         }
 
         static void TestaDivisao(int divisor)
         {
-            Dividir(10, divisor);
+            int resultado = Dividir(10, divisor);
+            Console.WriteLine("Resultado da divisão de 10 por " + divisor + " é " + resultado);
+        }
+
+        public static int Dividir(int numero, int divisor)
+        {
+            try
+            {
+                return numero / divisor;
+            }
+            catch (DivideByZeroException)
+            {
+                Console.WriteLine("Exceção com número=" + numero + " e divisor=" + divisor);
+                throw;
+                Console.WriteLine("Código depois do throw");
+            }
         }
     }
 }
