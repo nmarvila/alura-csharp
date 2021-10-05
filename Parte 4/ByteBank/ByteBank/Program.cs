@@ -12,19 +12,27 @@ namespace ByteBank
         {
             try
             {
-                Metodo();
+                ContaCorrente conta = new ContaCorrente(456, 0);
             }
-            catch (DivideByZeroException e)
+            catch (ArgumentException ex)
             {
-                Console.WriteLine("Não é possível divisão por zero.");
+                if (ex.ParamName == "numero")
+                {
+
+                }
+
+                Console.WriteLine("Argumento com problema: " + ex.ParamName);
+                Console.WriteLine("Ocorreu uma exceção do tipo ArgumentException");
+                Console.WriteLine(ex.Message);
             }
-            catch (Exception e)
+            catch (Exception ex)
             {
-                Console.WriteLine(e.Message);
-                Console.WriteLine(e.StackTrace);
-                Console.WriteLine("Aconteceu um erro!");
+                Console.WriteLine(ex.Message);
             }
 
+            // Metodo();
+
+            Console.WriteLine("Execução finalizada. Tecle enter para sair");
             Console.ReadLine();
         }
 
@@ -37,21 +45,39 @@ namespace ByteBank
 
         static void TestaDivisao(int divisor)
         {
-            int resultado = Dividir(10, divisor);
-            Console.WriteLine("Resultado da divisão de 10 por " + divisor + " é " + resultado);
+            try
+            {
+                Dividir(10, divisor);
+            }
+            catch (NullReferenceException ex)
+            {
+                Console.WriteLine("Fui capturado pelo (NullReferenceException ex)");
+                Console.WriteLine(ex.StackTrace);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Fui capturado pelo (Exception ex)");
+                Console.WriteLine(ex.StackTrace);
+            }
+
+            Console.WriteLine("Estou executando normalmente!");
         }
 
         public static int Dividir(int numero, int divisor)
         {
             try
             {
-                return numero / divisor;
+                Console.WriteLine("Fazendo o cálculo " + numero + " / " + divisor);
+                int resultado = numero / divisor;
+                Console.WriteLine("O resultado é " + resultado);
+                return resultado;
             }
-            catch (DivideByZeroException)
+            catch (Exception ex)
             {
-                Console.WriteLine("Exceção com número=" + numero + " e divisor=" + divisor);
-                throw;
-                Console.WriteLine("Código depois do throw");
+                Console.WriteLine("Erro no cálculo: " + ex.Message);
+                throw; // Lançar exceção
+
+                Console.WriteLine("Depois do throw");
             }
         }
     }
