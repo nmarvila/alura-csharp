@@ -43,7 +43,7 @@ namespace ByteBank.Modelos
 
         internal void MetodoInterno()
         {
-            // Visível apenas para o projeto ByteBank.Modelos!
+            // Visivel apenas para o projeto ByteBank.Modelos!
         }
     }
 }
