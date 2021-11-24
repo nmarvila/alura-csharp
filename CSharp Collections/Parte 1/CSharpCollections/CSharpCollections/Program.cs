@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CSharpCollections
+namespace Aula1
 {
     internal class Program
     {
