@@ -17,6 +17,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A2.1-ArraysMultidimensionai
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A2.2-JaggedArrays", "A2.2-JaggedArrays\A2.2-JaggedArrays.csproj", "{31DC05C1-36A2-47D9-9243-BBDE2F4AECBB}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Aula3", "Aula3", "{0046A644-C02F-4BD8-B44C-1D618FCE5B3F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A3.1-ConsultandoCollections", "A3.1-ConsultandoCollections\A3.1-ConsultandoCollections.csproj", "{4394ECAA-F360-445D-A480-D09E7D8F8C6C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -43,6 +47,10 @@ Global
 		{31DC05C1-36A2-47D9-9243-BBDE2F4AECBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{31DC05C1-36A2-47D9-9243-BBDE2F4AECBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{31DC05C1-36A2-47D9-9243-BBDE2F4AECBB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4394ECAA-F360-445D-A480-D09E7D8F8C6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4394ECAA-F360-445D-A480-D09E7D8F8C6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4394ECAA-F360-445D-A480-D09E7D8F8C6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4394ECAA-F360-445D-A480-D09E7D8F8C6C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -53,6 +61,7 @@ Global
 		{D02B6634-823C-40E8-BF83-50EC07A52FEF} = {6183494C-4D95-499C-AF3B-68AE3524A6A9}
 		{C989AC1A-41CB-4F0D-B4B9-36A0D3D57EC1} = {C145CD77-4B6B-4A7A-92B5-FE367B99CE91}
 		{31DC05C1-36A2-47D9-9243-BBDE2F4AECBB} = {C145CD77-4B6B-4A7A-92B5-FE367B99CE91}
+		{4394ECAA-F360-445D-A480-D09E7D8F8C6C} = {0046A644-C02F-4BD8-B44C-1D618FCE5B3F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {097D3748-C21D-4F4F-A597-69155BE24544}
