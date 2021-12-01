@@ -43,11 +43,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Aula01\R01.ExtractMethod\antes\Relatorio.cs" />
+    <Compile Include="Aula01\R01.ExtractMethod\depois\Relatorio.cs" />
+    <Compile Include="Aula01\R02.InlineMethod\antes\Motoboy.cs" />
+    <Compile Include="Aula01\R02.InlineMethod\depois\Motoboy.cs" />
+    <Compile Include="Aula02\R04.InlineTemp\antes\CalculadoraDePrecos.cs" />
+    <Compile Include="Aula02\R04.InlineTemp\depois\CalculadoraDePrecos.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
