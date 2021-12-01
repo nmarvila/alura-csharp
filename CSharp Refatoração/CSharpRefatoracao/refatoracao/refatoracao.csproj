@@ -49,6 +49,10 @@
     <Compile Include="Aula01\R02.InlineMethod\depois\Motoboy.cs" />
     <Compile Include="Aula02\R04.InlineTemp\antes\CalculadoraDePrecos.cs" />
     <Compile Include="Aula02\R04.InlineTemp\depois\CalculadoraDePrecos.cs" />
+    <Compile Include="Aula03\R06.SplitTemporaryVariable\antes\Retangulo.cs" />
+    <Compile Include="Aula03\R06.SplitTemporaryVariable\depois\Retangulo.cs" />
+    <Compile Include="Aula03\R07.RemoveAssignmentsToParameters\antes\CalculadoraDePrecos.cs" />
+    <Compile Include="Aula03\R07.RemoveAssignmentsToParameters\depois\CalculadoraDePrecos.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
