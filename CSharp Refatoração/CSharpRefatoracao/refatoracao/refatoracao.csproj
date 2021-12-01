@@ -53,6 +53,12 @@
     <Compile Include="Aula03\R06.SplitTemporaryVariable\depois\Retangulo.cs" />
     <Compile Include="Aula03\R07.RemoveAssignmentsToParameters\antes\CalculadoraDePrecos.cs" />
     <Compile Include="Aula03\R07.RemoveAssignmentsToParameters\depois\CalculadoraDePrecos.cs" />
+    <Compile Include="Aula04\R08.ReplaceMethodWithMethodObject\antes\Produto.cs" />
+    <Compile Include="Aula04\R08.ReplaceMethodWithMethodObject\depois\Produto.cs" />
+    <Compile Include="Aula05\R10.MoveMethod\antes\ContaCorrente.cs" />
+    <Compile Include="Aula05\R10.MoveMethod\depois\ContaCorrente.cs" />
+    <Compile Include="Aula05\R11.MoveField\antes\ContaDeLuz.cs" />
+    <Compile Include="Aula05\R11.MoveField\depois\ContaDeLuz.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
