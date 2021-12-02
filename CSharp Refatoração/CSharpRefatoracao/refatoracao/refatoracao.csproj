@@ -59,6 +59,8 @@
     <Compile Include="Aula05\R10.MoveMethod\depois\ContaCorrente.cs" />
     <Compile Include="Aula05\R11.MoveField\antes\ContaDeLuz.cs" />
     <Compile Include="Aula05\R11.MoveField\depois\ContaDeLuz.cs" />
+    <Compile Include="Aula06\R12.ExtractClass\antes\Empresa.cs" />
+    <Compile Include="Aula06\R12.ExtractClass\depois\Empresa.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
