@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Refatorando2.Aula1.R22.EncapsulateCollection.depois
+namespace Refatorando2.Aula1.R22.EncapsulateCollection.antes
 {
     internal class Programa
     {

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Refatorando2.Aula1.R18.ReplaceMagicNumber.depois
+namespace Refatorando2.Aula1.R18.ReplaceMagicNumber.antes
 {
     internal class Programa
     {
