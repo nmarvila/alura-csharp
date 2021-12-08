@@ -61,6 +61,14 @@
     <Compile Include="Aula2\R25.ChangeUniToBi\depois\Pedido.cs" />
     <Compile Include="Aula2\R26.ChangeBiToUni\antes\Pedido.cs" />
     <Compile Include="Aula2\R26.ChangeBiToUni\depois\Pedido.cs" />
+    <Compile Include="Aula3\R28.ReplaceTypeCodeWithClass\antes\ContaBancaria.cs" />
+    <Compile Include="Aula3\R28.ReplaceTypeCodeWithClass\depois\ContaBancaria.cs" />
+    <Compile Include="Aula3\R29.ReplaceTypeCodeWithSubclasses\antes\Funcionario.cs" />
+    <Compile Include="Aula3\R29.ReplaceTypeCodeWithSubclasses\depois\Funcionario.cs" />
+    <Compile Include="Aula3\R30.ReplaceTypeCodeWStateStrategy\antes\Funcionario.cs" />
+    <Compile Include="Aula3\R30.ReplaceTypeCodeWStateStrategy\depois\Funcionario.cs" />
+    <Compile Include="Aula3\R31.ReplaceSubclassWithFields\antes\Microondas.cs" />
+    <Compile Include="Aula3\R31.ReplaceSubclassWithFields\depois\Microondas.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
