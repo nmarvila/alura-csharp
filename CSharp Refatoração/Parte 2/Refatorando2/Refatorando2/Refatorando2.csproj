@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{161FC562-73E6-4428-B984-F1E6D4FF6482}</ProjectGuid>
+    <ProjectGuid>{7C2FC167-F633-4308-9703-9DFD040FA099}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>refatoracao</RootNamespace>
-    <AssemblyName>refatoracao</AssemblyName>
+    <RootNamespace>Refatorando2</RootNamespace>
+    <AssemblyName>Refatorando2</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,30 +43,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Aula01\R01.ExtractMethod\antes\Relatorio.cs" />
-    <Compile Include="Aula01\R01.ExtractMethod\depois\Relatorio.cs" />
-    <Compile Include="Aula01\R02.InlineMethod\antes\Motoboy.cs" />
-    <Compile Include="Aula01\R02.InlineMethod\depois\Motoboy.cs" />
-    <Compile Include="Aula02\R04.InlineTemp\antes\CalculadoraDePrecos.cs" />
-    <Compile Include="Aula02\R04.InlineTemp\depois\CalculadoraDePrecos.cs" />
-    <Compile Include="Aula03\R06.SplitTemporaryVariable\antes\Retangulo.cs" />
-    <Compile Include="Aula03\R06.SplitTemporaryVariable\depois\Retangulo.cs" />
-    <Compile Include="Aula03\R07.RemoveAssignmentsToParameters\antes\CalculadoraDePrecos.cs" />
-    <Compile Include="Aula03\R07.RemoveAssignmentsToParameters\depois\CalculadoraDePrecos.cs" />
-    <Compile Include="Aula04\R08.ReplaceMethodWithMethodObject\antes\Produto.cs" />
-    <Compile Include="Aula04\R08.ReplaceMethodWithMethodObject\depois\Produto.cs" />
-    <Compile Include="Aula05\R10.MoveMethod\antes\ContaCorrente.cs" />
-    <Compile Include="Aula05\R10.MoveMethod\depois\ContaCorrente.cs" />
-    <Compile Include="Aula05\R11.MoveField\antes\ContaDeLuz.cs" />
-    <Compile Include="Aula05\R11.MoveField\depois\ContaDeLuz.cs" />
-    <Compile Include="Aula06\R12.ExtractClass\antes\Empresa.cs" />
-    <Compile Include="Aula06\R12.ExtractClass\depois\Empresa.cs" />
+    <Compile Include="Aula1\R18.ReplaceMagicNumber\antes\ICMS.cs" />
+    <Compile Include="Aula1\R18.ReplaceMagicNumber\depois\ICMS.cs" />
+    <Compile Include="Aula1\R19.ReplaceArrayWithObject\antes\Empresa.cs" />
+    <Compile Include="Aula1\R19.ReplaceArrayWithObject\depois\Empresa.cs" />
+    <Compile Include="Aula1\R20.ReplaceDataValueWithObject\antes\Pedido.cs" />
+    <Compile Include="Aula1\R20.ReplaceDataValueWithObject\depois\Pedido.cs" />
+    <Compile Include="Aula1\R21.EncapsulateField\antes\ContaCorrente.cs" />
+    <Compile Include="Aula1\R21.EncapsulateField\depois\ContaCorrente.cs" />
+    <Compile Include="Aula1\R22.EncapsulateCollection\antes\Aluno.cs" />
+    <Compile Include="Aula1\R22.EncapsulateCollection\depois\Aluno.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
+    <None Include="Aula1\R19.ReplaceArrayWithObject\antes\clientes.csv" />
+    <None Include="Aula1\R19.ReplaceArrayWithObject\depois\clientes.csv" />
   </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
