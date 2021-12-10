@@ -72,6 +72,14 @@
     <Compile Include="Aula3\R52.ReplaceErrorCodeWithException\depois\ContaBancaria.cs" />
     <Compile Include="Aula3\R53.ReplaceExceptionwithTest\antes\ContaCorrente.cs" />
     <Compile Include="Aula3\R53.ReplaceExceptionwithTest\depois\ContaCorrente.cs" />
+    <Compile Include="Aula4\R54.PullUpMethod\antes\Cliente.cs" />
+    <Compile Include="Aula4\R54.PullUpMethod\depois\Cliente.cs" />
+    <Compile Include="Aula4\R55.PullUpConstructorBody\antes\Cliente.cs" />
+    <Compile Include="Aula4\R55.PullUpConstructorBody\depois\Cliente.cs" />
+    <Compile Include="Aula4\R56.PushDownMethod\antes\Funcionario.cs" />
+    <Compile Include="Aula4\R56.PushDownMethod\depois\Funcionario.cs" />
+    <Compile Include="Aula4\R57.PushDownField\antes\Funcionario.cs" />
+    <Compile Include="Aula4\R57.PushDownField\depois\Funcionario.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
