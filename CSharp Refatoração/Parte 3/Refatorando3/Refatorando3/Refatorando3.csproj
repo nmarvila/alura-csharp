@@ -62,25 +62,21 @@
     <Compile Include="Aula2\R47.ReplaceParameterWMethodCall\depois\Cliente.cs" />
     <Compile Include="Aula2\R48.IntroduceParameterObject\antes\HotelFazenda.cs" />
     <Compile Include="Aula2\R48.IntroduceParameterObject\depois\HotelFazenda.cs" />
+    <Compile Include="Aula3\R49.RemoveSettingMethod\antes\ContaCorrente.cs" />
+    <Compile Include="Aula3\R49.RemoveSettingMethod\depois\ContaCorrente.cs" />
+    <Compile Include="Aula3\R50.HideMethod\antes\HotelFazenda.cs" />
+    <Compile Include="Aula3\R50.HideMethod\depois\HotelFazenda.cs" />
+    <Compile Include="Aula3\R51.ReplaceConstructorWithFactoryMethod\antes\Funcionario.cs" />
+    <Compile Include="Aula3\R51.ReplaceConstructorWithFactoryMethod\depois\Funcionario.cs" />
+    <Compile Include="Aula3\R52.ReplaceErrorCodeWithException\antes\ContaBancaria.cs" />
+    <Compile Include="Aula3\R52.ReplaceErrorCodeWithException\depois\ContaBancaria.cs" />
+    <Compile Include="Aula3\R53.ReplaceExceptionwithTest\antes\ContaCorrente.cs" />
+    <Compile Include="Aula3\R53.ReplaceExceptionwithTest\depois\ContaCorrente.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Aula1\R43.SeparateQueryFromModifier\antes\SeparateQueryFromModifier.png" />
-    <Content Include="Aula1\R43.SeparateQueryFromModifier\depois\SeparateQueryFromModifier.png" />
-    <Content Include="Aula2\R44.ParameterizeMethod\antes\ParameterizeMethod.png" />
-    <Content Include="Aula2\R44.ParameterizeMethod\depois\ParameterizeMethod.png" />
-    <Content Include="Aula2\R45.ReplaceParameterWithExplicitMethods\antes\ReplaceParameterWithExplicitMethods.png" />
-    <Content Include="Aula2\R45.ReplaceParameterWithExplicitMethods\depois\ReplaceParameterWithExplicitMethods.png" />
-    <Content Include="Aula2\R46.PreserveWholeObject\antes\PreserveWholeObject.png" />
-    <Content Include="Aula2\R46.PreserveWholeObject\depois\PreserveWholeObject.png" />
-    <Content Include="Aula2\R47.ReplaceParameterWMethodCall\antes\ReplaceParameterWMethodCall.png" />
-    <Content Include="Aula2\R47.ReplaceParameterWMethodCall\depois\ReplaceParameterWMethodCall.png" />
-    <Content Include="Aula2\R48.IntroduceParameterObject\antes\IntroduceParameterObject.png" />
-    <Content Include="Aula2\R48.IntroduceParameterObject\depois\IntroduceParameterObject.png" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
