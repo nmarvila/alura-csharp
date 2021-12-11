@@ -80,6 +80,25 @@
     <Compile Include="Aula4\R56.PushDownMethod\depois\Funcionario.cs" />
     <Compile Include="Aula4\R57.PushDownField\antes\Funcionario.cs" />
     <Compile Include="Aula4\R57.PushDownField\depois\Funcionario.cs" />
+    <Compile Include="Aula5\R58.ExtractSubclass\antes\ItemDeServico.cs" />
+    <Compile Include="Aula5\R58.ExtractSubclass\depois\ItemDeServico.cs" />
+    <Compile Include="Aula5\R59.ExtractSuperclass\antes\NotasFiscais.cs" />
+    <Compile Include="Aula5\R59.ExtractSuperclass\depois\NotasFiscais.cs" />
+    <Compile Include="Aula5\R60.ExtractInterface\antes\CNPJFormatter.cs" />
+    <Compile Include="Aula5\R60.ExtractInterface\antes\CPFFormatter.cs" />
+    <Compile Include="Aula5\R60.ExtractInterface\antes\Program.cs" />
+    <Compile Include="Aula5\R60.ExtractInterface\depois\CNPJFormatter.cs" />
+    <Compile Include="Aula5\R60.ExtractInterface\depois\CPFFormatter.cs" />
+    <Compile Include="Aula5\R60.ExtractInterface\depois\IFormatter.cs" />
+    <Compile Include="Aula5\R60.ExtractInterface\depois\Program.cs" />
+    <Compile Include="Aula6\R61.CollapseHierarchy\antes\Funcionario.cs" />
+    <Compile Include="Aula6\R61.CollapseHierarchy\depois\Funcionario.cs" />
+    <Compile Include="Aula6\R62.FormTemplateMethod\antes\Customer.cs" />
+    <Compile Include="Aula6\R62.FormTemplateMethod\depois\Customer.cs" />
+    <Compile Include="Aula6\R63.ReplaceInheritanceWithDelegation\antes\Imovel.cs" />
+    <Compile Include="Aula6\R63.ReplaceInheritanceWithDelegation\depois\Imovel.cs" />
+    <Compile Include="Aula6\R64.ReplaceDelegationWithInheritance\antes\Imovel.cs" />
+    <Compile Include="Aula6\R64.ReplaceDelegationWithInheritance\depois\Imovel.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
